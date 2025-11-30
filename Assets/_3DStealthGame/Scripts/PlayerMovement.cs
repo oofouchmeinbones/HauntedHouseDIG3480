@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    Animator m_Animator;
+
     public InputAction MoveAction;
 
     public float walkSpeed = 1.0f;
@@ -16,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        m_Animator = GetComponent<Animator>();
         m_Rigidbody = GetComponent<Rigidbody>();
         MoveAction.Enable();
     }
@@ -23,9 +26,15 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         var pos = MoveAction.ReadValue<Vector2>();
-
         float horizontal = pos.x;
         float vertical = pos.y;
+        bool hasHorizontalInput = !Mathf.Approximately(horizontal, 0f);
+        bool hasVerticalInput = !Mathf.Approximately(vertical, 0f);
+        bool isWalking = hasHorizontalInput || hasVerticalInput;
+        m_Animator.SetBool("IsWalking", isWalking);
+       
+
+       
 
         m_Movement.Set(horizontal, 0f, vertical);
         m_Movement.Normalize();
