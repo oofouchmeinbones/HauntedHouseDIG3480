@@ -8,10 +8,12 @@ public class MinorMod_PlayerMovement : MonoBehaviour
     Animator m_Animator;
 
     public InputAction MoveAction;
-    public InputAction SpeedAction;
+    //public InputAction SpeedAction;
 
     public float walkSpeed = 1.0f;
     public float turnSpeed = 20f;
+    private float animatorStartSpeed;
+    private float animatorShiftSpeed;
 
     Rigidbody m_Rigidbody;
     Vector3 m_Movement;
@@ -22,18 +24,28 @@ public class MinorMod_PlayerMovement : MonoBehaviour
         m_Animator = GetComponent<Animator>();
         m_Rigidbody = GetComponent<Rigidbody>();
         MoveAction.Enable();
+        animatorStartSpeed = m_Animator.speed;
+        animatorShiftSpeed = m_Animator.speed * 1.75f;
+        //SpeedAction.Enable();
     }
 
     void FixedUpdate()
     {
         var pos = MoveAction.ReadValue<Vector2>();
-        
-        if (Input.GetKeyDown("Shift"))
+        //var shiftDown = SpeedAction.ReadValue
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
         {
             Debug.Log("Shift was pressed");
-            //walkSpeed = 1.5f;
-            //turnSpeed = 25f;
+            walkSpeed = 1.5f;
+            turnSpeed = 25f;
+            m_Animator.speed = animatorShiftSpeed;
+        } else if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
+        {
+            walkSpeed = 1.0f;
+            turnSpeed = 20f;
+            m_Animator.speed = animatorStartSpeed;
         }
+
         
         float horizontal = pos.x;
         float vertical = pos.y;

@@ -2585,6 +2585,69 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7093532791623156588}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1944584644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944584642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610d548ef245c5c45a7967f8ae155c97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MinorMod_PlayerMovement
+  MoveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 96c2333d-e495-4be6-b9b3-a643523854dd
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: WASD
+      m_Id: d0fadf65-4eda-41c1-9e9d-315fe57f2d8f
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 18be8c73-b9af-4f2a-ad16-6703c48ace7a
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 37700a43-6649-4713-8658-aa6fdb2e36bf
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: fb1ff806-943d-46ac-bf76-5d88fecfb763
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 6ae9efa8-a4c0-4f6a-b51b-b7e1f41b2110
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    m_Flags: 0
+  walkSpeed: 1
+  turnSpeed: 20
 --- !u!1 &2004782408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2985,10 +3048,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6861926124404403821, guid: 0ecf5da5e5ed8d54e86bbdf529113ae9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3642414883373023234, guid: 0ecf5da5e5ed8d54e86bbdf529113ae9,
+        type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1944584644}
   m_SourcePrefab: {fileID: 100100000, guid: 0ecf5da5e5ed8d54e86bbdf529113ae9, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
