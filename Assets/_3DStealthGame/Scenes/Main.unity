@@ -411,6 +411,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 792468385}
     m_Modifications:
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4488810037298921057, guid: 60439e5bef4c7fb43afadf10fec2a301,
         type: 3}
       propertyPath: player
@@ -679,6 +689,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 792468385}
     m_Modifications:
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4488810037298921057, guid: 60439e5bef4c7fb43afadf10fec2a301,
         type: 3}
       propertyPath: player
@@ -1046,6 +1066,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 792468385}
     m_Modifications:
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4488810037298921057, guid: 60439e5bef4c7fb43afadf10fec2a301,
         type: 3}
       propertyPath: player
@@ -1124,6 +1154,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 792468385}
     m_Modifications:
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4488810037298921057, guid: 60439e5bef4c7fb43afadf10fec2a301,
         type: 3}
       propertyPath: player
@@ -1288,6 +1328,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4893918006948760383, guid: 26997ddc671cf0c428bb059aafb3d053,
         type: 3}
       propertyPath: waypoints.Array.size
@@ -1762,6 +1812,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4893918006948760383, guid: 26997ddc671cf0c428bb059aafb3d053,
         type: 3}
       propertyPath: moveSpeed
@@ -2011,6 +2071,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4893918006948760383, guid: 26997ddc671cf0c428bb059aafb3d053,
         type: 3}
       propertyPath: waypoints.Array.size
@@ -2059,6 +2129,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 792468385}
     m_Modifications:
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4488810037298921057, guid: 60439e5bef4c7fb43afadf10fec2a301,
         type: 3}
       propertyPath: player
@@ -2754,6 +2834,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4893918006948760383, guid: 26997ddc671cf0c428bb059aafb3d053,
         type: 3}
       propertyPath: moveSpeed
@@ -2862,6 +2952,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost
       objectReference: {fileID: 0}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 4068300776597590020, guid: 26997ddc671cf0c428bb059aafb3d053,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4893918006948760383, guid: 26997ddc671cf0c428bb059aafb3d053,
         type: 3}
       propertyPath: moveSpeed
@@ -2915,6 +3015,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 792468385}
     m_Modifications:
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1944584643}
+    - target: {fileID: 3342502986934549475, guid: 60439e5bef4c7fb43afadf10fec2a301,
+        type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 772504981}
     - target: {fileID: 4488810037298921057, guid: 60439e5bef4c7fb43afadf10fec2a301,
         type: 3}
       propertyPath: player
