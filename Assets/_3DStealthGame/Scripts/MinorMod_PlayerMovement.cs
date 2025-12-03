@@ -29,7 +29,7 @@ public class MinorMod_PlayerMovement : MonoBehaviour
         //SpeedAction.Enable();
     }
 
-    void FixedUpdate()
+    void Update()
     {
         var pos = MoveAction.ReadValue<Vector2>();
         //var shiftDown = SpeedAction.ReadValue
